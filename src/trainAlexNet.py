@@ -11,8 +11,8 @@ from sklearn.preprocessing import LabelEncoder
 
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-BATCH_SIZE = 16
-EPOCHS = 10
+BATCH_SIZE = 32
+EPOCHS = 50
 IMG_DIR = "data/train/img"
 MSK_DIR = "data/train/masks"
 LABEL_FILE = "data/label.xlsx"
